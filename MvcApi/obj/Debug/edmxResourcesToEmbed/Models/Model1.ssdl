@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbTestModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="dbTestModelStoreContainer">
+    <EntitySet Name="CalledAPI" EntityType="dbTestModel.Store.CalledAPI" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="CalledAPI">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="dtAgg" Type="datetime" />
+    <Property Name="StringIn" Type="nvarchar" MaxLength="50" />
+    <Property Name="StringCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="KeyCode" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+</Schema>

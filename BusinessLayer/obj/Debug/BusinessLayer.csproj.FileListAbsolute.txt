@@ -1,0 +1,5 @@
+C:\Sviluppo\VS2010\MVC\MVC_CallAPI\MvcApi\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Sviluppo\VS2010\MVC\MVC_CallAPI\MvcApi\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Sviluppo\VS2010\MVC\MVC_CallAPI\MvcApi\BusinessLayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Sviluppo\VS2010\MVC\MVC_CallAPI\MvcApi\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Sviluppo\VS2010\MVC\MVC_CallAPI\MvcApi\BusinessLayer\obj\Debug\BusinessLayer.pdb

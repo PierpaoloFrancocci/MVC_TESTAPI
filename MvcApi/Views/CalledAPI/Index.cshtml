@@ -1,0 +1,49 @@
+﻿@model IEnumerable<BusinessLayer.CalledAPI>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div style="font-family:Arial">
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table border="1">
+    <tr>        
+        <th>
+            @Html.DisplayNameFor(model => model.StringIn)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StringCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KeyCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dtAgg)
+        </th>
+        
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>        
+        <td>
+            @Html.DisplayFor(modelItem => item.StringIn)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StringCode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.KeyCode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dtAgg)
+        </td>
+        
+    </tr>
+}
+
+</table>
+</div>
